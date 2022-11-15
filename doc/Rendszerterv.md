@@ -60,9 +60,7 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
 - Internetkapcsolat
 - Publikus szerverhez való hozzáférés
 
-##Követelmények
-
-##Követelmények
+## Követelmények
 
 Az oldal lefgontosabb funkciója, amit a felhasználók elérnek, az a képeken lévő kézirások felismerése és annak megadása, majd miuátn az összes kitöltendő feladvány meg van oldva, a helyes megoldások kiírása a képernyőre. Regisztrálni is lehet, de nincs nagy jelentősége, ugyanis csak egy helységnevet és egy nevet kell megadni, de sem a egisztáció, sem az adatok megadása nem kötelező. A kezelőfelület webes kialakítású, menüpontokkal léphetünk a weblap egyik oldaláról a másikra. Öt menüpont lesz elérhető a felületen:
 
