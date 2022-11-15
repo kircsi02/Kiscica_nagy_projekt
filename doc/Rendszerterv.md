@@ -142,6 +142,14 @@ A rendszer megfelelő működéséhez szükségünk van egy adatbázis szerverre
 
 ##Implementációs terv
 
+### Web application:
+
+A webes felület főként PHP és CSS nyelven fog készülni Laravel segítségével. A technológiákat amennyire lehet, külön-külön fájlokba rendszerezzük, és úgy kapcsoljuk őket össze a jobb átláthatóság és a többszöri könnyebb felhasználhatóság érdekében.
+
+### Database:
+
+A szolgáltatás tervezett használatát tekintve az adatbázis használata elengedhetetlen, így az eredmények és a felhasználók abban lesznek rögzítve, majd összekapcsolva az MNIST adatbázisával. Az átláthatóság és a későbbi könnyebb felhasználhatóság érdekében külön adatbázisban lesznek elmentve a regisztrált felhasználók adatai, a session-adatok, az MNIST adatbázisa, illetve a felhasználók által elért eredmények. Ezek implementálásához és használatához az Apache rendszerét választottuk a megbízhatóság fényében.
+
 ##Tesztterv
 
 A teszt célja a weboldal helyességének és megfelelő módon történő működésének ellenőrzése, illetve a rendszer által megvalósított üzleti szolgáltatások verifikálása.
