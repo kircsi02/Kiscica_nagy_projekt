@@ -32,4 +32,10 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
 
 ##Riportok
 
+- Kivitelező: Mi az oldal ötlete? Milyen koncepciójú és főbb funkciókkal rendelkező oldalt szeretne?
+- Megrendelő: Egy olyan oldalt szeretnénk, ahol a felhasználó véletlenszerűen kap egy képet valamelyik szám kézírásáról 0-tól 9-ig, ebből egymás után kb olyan 20 db-ot, majd a tippeket ellenőrizve megmondja, hogy melyik volt jó és melyik volt rossz, majd ezt jelzi is a felhasználónak.
+
+- Kivitelező: Milyen felületet szeretne a weboldalnak? Milyen legyen az oldal dizájnja? Legyen regisztráció, bejelentkezés?
+- Megrendelő: Egy könnyen kezelhető és átlátható, nem túl sok menüvel és összezavaró gombbal rendelkező felületet szeretnénk, ami egyszerű, sikkes és nem túldekorált vagy zavaró dizájnnal rendelkezik. A regisztráció és a bejelentkezés nem fontos, de mivel jó, ha van, csak hely és névmegadáshoz kötnénk
+
 ##Fogalomtár
