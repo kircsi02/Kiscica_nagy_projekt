@@ -127,6 +127,13 @@ Eszközök, amiket a fejlesztéshez használunk:
 
 ##Absztrakt domain modell
 
+A rendszert a felhasználó egy webes felületen érheti majd el, aminek az elkészítését PHP nyelven tervezzük. A felület lehetővé teszi, hogy a felhasználó egy név és egy helyadat megadásával regisztráljon, majd ugyanezek használatával bejelentkezzen, de nem kötelezően, hiszen bejelentkezés nélkül is elérhető lesz az oldal teljes mértékben. Akár bejelentkezett, akár nem, a következő menüpontok segítségével eldöntheti, hogy mit szeretne csinálni az oldalon:
+
+- Regisztráció → regisztrálhat
+- Bejelentkezés → bejelentkezhet
+- Számrejtvény → megoldhatja a tesztet, majd a feladványok befejeztével megtekintheti az eredményét
+- Elérhetőségek → megtekintheti a karbantartó/tulajdonos elérhetőségeit
+
 ##Architekturális terv
 
 A rendszer megfelelő működéséhez szükségünk van egy adatbázis szerverre, jelen esetben Apache-ot használunk erre a célra. A programunkat PHP és Laravel segítségével fejlesztjük, ami össze lesz kötve egy adatbázissal, amibe mentjük a felhasználók teszteredményeit, illetve ezek az eredmények lesznek egy, már előre meghatározott adatbázissal összehasonlítva. Az eredményekhez a felhasználók session adatait társítjuk, így megkülönböztetve az eredményeket, illetve ha valaki regisztrált, annak a nevét és helyét társítjuk hozzá.
