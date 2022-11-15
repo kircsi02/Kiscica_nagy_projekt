@@ -24,6 +24,7 @@ A felhasználó fellép a weblapra és legelőször a Főoldalon találja magát
 
 ##Igényelt üzleti folyamatok modellje
 
+A felhasználók regisztrálhatnak egy név és egy helységnév megadásával, de nem kötelező az oldal használatához, csak a statisztikai adatok gyűjtéséhez segítik elő a munkánkat, hogyha regisztrálnak. Fontosnak tartjuk azt is, hogy a weblap átlátható legyen, mindent kényelmesen meg lehessen találni, ne bántsa a dizájn a felhasználók szemét, valamint, hogy a felhasználók előszeretettel jöjjenek fel az oldalra és minél többször és minél több “feladványt” oldjanak meg, ezzel is támogatva minket és a munkánkat. Továbbá fontos még számunkra, hogy kialakítsunk egy olyan rendszert, ami ellenőrzi, hogy milyen szám található a képen, és megmondja a felhasználónak, hogy jól válaszolt-e vagy sem, lehetőleg azonnal, vagy a 20 db feladat végén összesítve és kimutatva az ereményt. Emellett törekszünk arra, hogy az eredményekhez, amiket a felhasználók elértek, hozzáférést biztosítsunk számukra, bár ez nem biztos, hogy megvalósul. Továbbá fontosnak tartjuk, hogy a feladványok ne ismétlődjenek a feladatokban, hiszen az nem lenne reális a felmérés szempontjából.
 
 ##Használati esetek
 
