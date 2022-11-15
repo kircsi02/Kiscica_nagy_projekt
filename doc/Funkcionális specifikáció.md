@@ -8,6 +8,14 @@ Egy olyan weblapot szeretnénk létrehozni, ami arra szolgál, hogy embereket k�
 
 ##Követelménylista
 
+- [K01] - Könnyen üzemeltethető és karbantartható rendszer, ami egyszerő felülettel és dizájnnal rendelkezik
+- [K02] - Reszponzív dizájn, ami a legtöbb platformon rendeltetésszerűen működik
+- [K03] - Regisztáció (nem kötelező), hely és név megadásával, ezáltal pontosítva a felmérést
+- [K04] - Felhasználó megjegyzése vagy helyileg sütikkel, vagy regisztrációval és bejelentkezéssel
+- [K05] - Kézírásos képek megjelenítése sorban, egymás után, lehetőleg mindegyik különböző (20 db)
+- [K06] - Tipp megadása és annak ellenőrzése, majd tippek tárolása későbbi felhasználásra
+- [K07] - 20 db feladat adása után végeremény mutatása a felhasználónak, majd ennek mentése későbbi felhasználásra, de a felhasználó nem fér hozzá  előző ereményeihez
+
 ##Jelenlegi üzleti folyamatok modellje
 
 ##Igényelt üzleti folyamatok modellje
