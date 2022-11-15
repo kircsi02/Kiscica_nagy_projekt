@@ -1,6 +1,6 @@
-#Rendszerterv
+# Rendszerterv
 
-##A rendszer célja
+## A rendszer célja
 
 Azt tartjuk a rendszerünk legfőbb céljának, hogy a felhasználó tudjon teljesíteni egy tesztet, amelyből kiderül, hogy a kézzel írott számokból, amik a képen láthatóak, a felhasználó mennyit ismer fel és milyen számnak látja, ami az adott képen található, majd erről a feladatok végén adjon egy visszajelzést mind a kitöltőnek, mind a rendszernek egyaránt. Később ezekből a  statisztikai adatokból az AI-ok is tanulhatnak, illetve a felhasználók is használhatják a saját eredményeiket a reflektálásra, hogy melyik számokat ismerik fel esetleg nehezebben.
 
@@ -8,7 +8,7 @@ Emellett bár nem lesz kötelező, a felhasználók dönthetnek úgy, hogy regis
 
 Ráadásképpen azt is fontosnak tartjuk, hogy a lehető legtöbb eszközről és böngészőből kitölthető legyen a teszt, illetve, pont emiatt, hogy reszponzív, felhasználóbarát és könnyen átlátható felületet alkossunk, amit könnyű kezelni és karbantartani egyaránt.
 
-##Projektterv
+## Projektterv
 
 A felület CSS és PHP nyelveken fog készülni, a hozzá társított adatbázis pedig Laravel-ben lesz megoldva.
 
@@ -84,7 +84,7 @@ Használat Az Alkalmazás Felhasználói 7 éven felüli természetes személyek
 
 Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy amennyiben valamely Felhasználó részéről bármilyen manipulációt, tömegesen generált letöltést, illetve az Alkalmazás szellemével bármilyen módon összeférhetetlen vagy azt sértő magatartást tapasztal, vagy ennek megalapozott gyanúja felmerül, úgy a Felhasználót azonnali hatállyal kizárja az Alkalmazás felhasználói köréből. Az Alkalmazáshoz kapcsolódó adatbázis módosítása kizárólag az Üzemeltető által, illetve az Alkalmazást üzemeltető webkiszolgálón keresztül lehetséges. Bármilyen külső, nem az Alkalmazás részeként elérhető eszközzel történő beavatkozás a Felhasználó azonnali kizárását eredményezi. Ha a Felhasználó az Alkalmazást használat közben bezárja, vagy ha a kapcsolat (bármely okból) megszakad a kiszolgáló webhelyével, abban az esetben az adatok elvesztéséért a Tulajdonos semmilyen felelősséget nem vállal. A Tulajdonos és az Üzemeltető a rendelkezésére álló eszközökkel biztosítja, hogy az Alkalmazás használata technikai szempontból biztonságosnak minősüljön. Az Alkalmazáshoz való csatlakozás miatt bekövetkező károkért, az internetes hálózat esetleges üzemkimaradásából, az elérési út hibájából, bármely nem várt technikai hibából eredő adatvesztésért, vírusból, vagy más károkért a Tulajdonos nem felelős. A Felhasználóknak minden esetben fel kell mérniük, hogy rendelkeznek-e az Alkalmazás használatához szükséges ismeretekkel, technikai követelményekkel és teljesítményekkel.
 
-##Funkcionális terv
+## Funkcionális terv
 
 ### Rendszerszereplők:
 
@@ -125,7 +125,7 @@ Eszközök, amiket a fejlesztéshez használunk:
 - Trello
 - Apache
 
-##Absztrakt domain modell
+## Absztrakt domain modell
 
 A rendszert a felhasználó egy webes felületen érheti majd el, aminek az elkészítését PHP nyelven tervezzük. A felület lehetővé teszi, hogy a felhasználó egy név és egy helyadat megadásával regisztráljon, majd ugyanezek használatával bejelentkezzen, de nem kötelezően, hiszen bejelentkezés nélkül is elérhető lesz az oldal teljes mértékben. Akár bejelentkezett, akár nem, a következő menüpontok segítségével eldöntheti, hogy mit szeretne csinálni az oldalon:
 
@@ -134,13 +134,13 @@ A rendszert a felhasználó egy webes felületen érheti majd el, aminek az elk�
 - Számrejtvény → megoldhatja a tesztet, majd a feladványok befejeztével megtekintheti az eredményét
 - Elérhetőségek → megtekintheti a karbantartó/tulajdonos elérhetőségeit
 
-##Architekturális terv
+## Architekturális terv
 
 A rendszer megfelelő működéséhez szükségünk van egy adatbázis szerverre, jelen esetben Apache-ot használunk erre a célra. A programunkat PHP és Laravel segítségével fejlesztjük, ami össze lesz kötve egy adatbázissal, amibe mentjük a felhasználók teszteredményeit, illetve ezek az eredmények lesznek egy, már előre meghatározott adatbázissal összehasonlítva. Az eredményekhez a felhasználók session adatait társítjuk, így megkülönböztetve az eredményeket, illetve ha valaki regisztrált, annak a nevét és helyét társítjuk hozzá.
 
-##Adatbázis terv
+## Adatbázis terv
 
-##Implementációs terv
+## Implementációs terv
 
 ### Web application:
 
@@ -150,7 +150,7 @@ A webes felület főként PHP és CSS nyelven fog készülni Laravel segítség�
 
 A szolgáltatás tervezett használatát tekintve az adatbázis használata elengedhetetlen, így az eredmények és a felhasználók abban lesznek rögzítve, majd összekapcsolva az MNIST adatbázisával. Az átláthatóság és a későbbi könnyebb felhasználhatóság érdekében külön adatbázisban lesznek elmentve a regisztrált felhasználók adatai, a session-adatok, az MNIST adatbázisa, illetve a felhasználók által elért eredmények. Ezek implementálásához és használatához az Apache rendszerét választottuk a megbízhatóság fényében.
 
-##Tesztterv
+## Tesztterv
 
 A teszt célja a weboldal helyességének és megfelelő módon történő működésének ellenőrzése, illetve a rendszer által megvalósított üzleti szolgáltatások verifikálása.
 
@@ -170,11 +170,11 @@ Ennek a tesztnek elsődleges célja a tesztelő felhasználók visszajelzései a
     - Tudnia kell feltölteni és lekérdezni az adatbázisból a szükséges adatokat
     - Tudnia kell feltölteni és lekérdezni az adatbázisból a szükséges adatokat
 
-##Telepítési terv
+## Telepítési terv
 
 A webes alkalmazásra egyszerűen, egy ajánlott böngésző letöltésével (Firefox, Google Chrome, Safari, Microsoft Edge, Opera) és a weboldalunkat felkeresve tudnak a felhasználók majd felcsatlakozni internet hozzáférése mellett, így külön szoftver vagy letöltés nem szükséges hozzá, csak egy ajánlott böngészőt kell telepíteni.
 
-##Karbantartási terv
+## Karbantartási terv
 
 Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Android verziókkal kompatibilis-e az alkalmazás.
 
@@ -195,6 +195,6 @@ Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában fogla
 - Perfective Maintenance: A szoftver hosszútávú működése érdekében végzett módosítások, mint például új funkciók, teljesítmény és megbízhatóság javítása.
 - Preventive Maintenance: Olyan problémák elhárítása, kijavítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
 
-##Fogalomtár
+## Fogalomtár
 
 session = munkamenet
