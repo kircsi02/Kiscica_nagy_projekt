@@ -140,6 +140,8 @@ A rendszer megfelelő működéséhez szükségünk van egy adatbázis szerverre
 
 ## Adatbázis terv
 
+![Rendszerterv - Adatbázis terv ábra drawio](https://user-images.githubusercontent.com/113984906/201909494-71bbe281-ae8e-46b8-9616-c999d1a61084.png)
+
 ## Implementációs terv
 
 ### Web application:
