@@ -22,6 +22,8 @@ Továbbá ez a weblap abban is nagy segítségünkre lehet, hogy azok az emberek
 
 ##Jelenlegi üzleti folyamatok modellje
 
+A felhasználó fellép a weblapra és legelőször a Főoldalon találja magát, ahol tud regisztálni, ha szeretne, esetleg fel tudja venni velünk a kapcsolatot, ha probléma adódna vagy átléphet a Számrejtvények fülre és próbálkozhat a számok felismerésével egyaránt.
+
 ##Igényelt üzleti folyamatok modellje
 
 ##Használati esetek
