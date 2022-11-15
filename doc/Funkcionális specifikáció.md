@@ -2,6 +2,8 @@
 
 ##Áttekintés
 
+Egy olyan weblapot szeretnénk létrehozni, ami arra szolgál, hogy embereket kérdezünk, meg arról, hogy milyen kézírást látnak a képen, ez pedig összehasonlításra szolgálhat, amikor összehasonlítjuk, hogy az AI és az ember mit választ az adott képhez. Emellett segíti a kézírással nap mint nap foglalkozók munkáját azzal, hogy gyakorolhatják annak felismerését úgy, hogy az oldal ellenőrzi nekik és visszajelzést ad a felhasználónak. Ehhez pedig PHP-t, azon belül is Laravel-t és CSS-t és fogunk használni, hogy a weboldalt működésre bírjuk.
+
 ##Jelenlegi helyzet
 
 ##Követelménylista
