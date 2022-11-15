@@ -6,7 +6,7 @@ Egy olyan weblapot szeretnénk létrehozni, ami arra szolgál, hogy embereket k�
 
 ##Jelenlegi helyzet
 
-Napjainkban elég sok gondot szokott okozni, hogy nyomtatványokban, hivatalos dokumentumokban a nyomtatott részek mellett vannak kézzel írott sorok is, mint például a dátum, aláírás stb. Annak érdekében, hogy ezeknek a feldolgozását meggyorsítsuk, létre akarunk hozni egy olyan weboldalt, ami a kézírást felismerő AI-ok működését segíti azzal, hogy egy statisztikát nyújt a véletlenszerű kézírásos képek felismerésében. Ez által kapunk egy képet, hogy az adott területen az emberek mit hogy írnak, mit hogy olvasnak, ami nagy segítséget nyújthat a későbbi kézírásfelismerések alkalmával.
+
 
 Továbbá ez a weblap abban is nagy segítségünkre lehet, hogy azok az emberek, akik olyan szakmában dolgoznak, ahol nap mint nap kézírást kell felismerniük, gyakorolják ezt különböző írások beazonosításával, ezáltal növelve a hatékonyságot.
 
@@ -22,11 +22,9 @@ Továbbá ez a weblap abban is nagy segítségünkre lehet, hogy azok az emberek
 
 ##Jelenlegi üzleti folyamatok modellje
 
-A felhasználó fellép a weblapra és legelőször a Főoldalon találja magát, ahol tud regisztálni, ha szeretne, esetleg fel tudja venni velünk a kapcsolatot, ha probléma adódna vagy átléphet a Számrejtvények fülre és próbálkozhat a számok felismerésével egyaránt.
 
 ##Igényelt üzleti folyamatok modellje
 
-A felhasználók regisztrálhatnak egy név és egy helységnév megadásával, de nem kötelező az oldal használatához, csak a statisztikai adatok gyűjtéséhez segítik elő a munkánkat, hogyha regisztrálnak. Fontosnak tartjuk azt is, hogy a weblap átlátható legyen, mindent kényelmesen meg lehessen találni, valamint, hogy a felhasználók előszeretettel jöjjenek fel az oldalra és minél többször és minél több “feladványt” oldjanak meg, ezzel is támogatva minket és a munkánkat. Továbbá fontos még számunkra, hogy kialakítsunk egy olyan rendszert, ami ellenőrzi, hogy milyen szám található a képen, és megmondja a felhasználónak, hogy jól válaszolt-e vagy sem, lehetőleg azonnal, vagy a 20 db feladat végén összesítve.
 
 ##Használati esetek
 
