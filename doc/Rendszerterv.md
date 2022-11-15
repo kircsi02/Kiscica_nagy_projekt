@@ -190,6 +190,8 @@ Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában fogla
 
 ### Karbantartás folyamata:
 
+![rendszerterv_Karbantartási_terv](https://user-images.githubusercontent.com/113984906/201912159-315de0eb-8947-482b-bc63-b8fcd972d09d.jpg)
+
 - Corrective Maintenance: A felhasználók által beküldött hibajelentésekben szereplő hibák kijavítása.
 - Adaptive Maintenance: A program naprakészen tartása, finomhangolása.
 - Perfective Maintenance: A szoftver hosszútávú működése érdekében végzett módosítások, mint például új funkciók, teljesítmény és megbízhatóság javítása.
