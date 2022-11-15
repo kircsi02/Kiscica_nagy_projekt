@@ -176,6 +176,25 @@ A webes alkalmazásra egyszerűen, egy ajánlott böngésző letöltésével (Fi
 
 ##Karbantartási terv
 
+Az alkalmazás folyamatos üzemeltetése és karbantartása, mely magában foglalja a programhibák elhárítását, a belső igények változása miatti módosításokat, valamint a környezeti feltételek változása miatt megfogalmazott program-, illetve állomány módosítási igényeket. Ellenőrizni kell, hogy a jövőben kiadott Android verziókkal kompatibilis-e az alkalmazás.
+
+### Adatbázis karbantartása:
+
+- Idönként ellenőrizni kell hogy az adatbázis megfelelően működik-e: Jól működik-e a rendszer nagy mennyiségű adattal, nincsenek-e duplikált értékek, stb.
+- Adatbázisban felmerülő hiba esetén be kell ütemezni a webszerver átmeneti leállítását és erről értesíteni kell a felhasználókat. Az adatbázis-hiba kijavítása után ellenőrizni kell, hogy a webszerver helyesen felismerte-e az adatbázist, valamint helyesen tudja-e azt kezelni.
+
+### Weboldal karbantartása:
+
+- Az alkalmazást felhasználói vagy megrendelői igények szerint lehet bővíteni. Például felhasználói visszajelzések alapján új elemeket fejleszteni, elemek viselkedését megváltoztatni.
+- Weboldal bővítése, hibajavítása esetén elegendő a frissebb állományokkal felülírni az eredeti állományokat, valamint igény esetén egy gyorsítótár-ürítést elvégezni. Kompatibilitást törő, valamint komplexebb módosítások esetén (például az API visszafele nem kompatibilis módon való módosítása) javasolt a szolgáltatás ideiglenes (pár perc) szüneteltetése. Erről nem feltétlenül szükséges a felhasználókat értesíteni.
+
+### Karbantartás folyamata:
+
+- Corrective Maintenance: A felhasználók által beküldött hibajelentésekben szereplő hibák kijavítása.
+- Adaptive Maintenance: A program naprakészen tartása, finomhangolása.
+- Perfective Maintenance: A szoftver hosszútávú működése érdekében végzett módosítások, mint például új funkciók, teljesítmény és megbízhatóság javítása.
+- Preventive Maintenance: Olyan problémák elhárítása, kijavítása, amelyek még nem tűnnek fontosnak, de később komoly problémákat okozhatnak.
+
 ##Fogalomtár
 
 session = munkamenet
