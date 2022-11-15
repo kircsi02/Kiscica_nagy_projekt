@@ -16,6 +16,14 @@ Egy olyan weboldalt szeretnénk megalkotni, ami könnyen kezelhető, reszponzív
 
 ##Funkcionális követelmények
 
+Az oldal lefgontosabb funkciója, amit a felhasználók elérnek, az a képeken lévő kézirások felismerése és annak megadása, majd miuátn az összes kitöltendő feladvány meg van oldva, a helyes megoldások kiírása a képernyőre. Regisztrálni is lehet, de nincs nagy jelentősége, ugyanis csak egy helységnevet és egy nevet kell megadni, de sem a egisztáció, sem az adatok megadása nem kötelező. A kezelőfelület webes kialakítású, menüpontokkal léphetünk a weblap egyik oldaláról a másikra. Öt menüpont lesz elérhető a felületen:
+
+- Főoldal
+- Számrejtvény
+- Regisztráció
+- Bejelentkezés
+- Elérhetőségek
+
 ##Rendszerre vonatkozó törvények, szabályok
 
 Általános Információk Az Alkalmazáshoz való hozzáférést és annak használatát az alkalmazandó jogszabályok és a jelen Felhasználási Feltételek és Adatkezelési tájékoztató (a továbbiakban Felhasználási Feltételek) szabályozzák. Az Alkalmazást letöltők és használók (a továbbiakban: a Felhasználók) elfogadják a jelen Felhasználási Feltételeket. Amennyiben ezen Felhasználási Feltételeket és Adatkezelési Tájékoztatót nem fogadják el, nem jogosultak a regisztrációra és az Alkalmazás használatára. A jelen Felhasználási Feltételekre a magyar jog az irányadó, tekintet nélkül a nemzetközi magánjog előírásaira. Az Alkalmazás Felhasználói kifejezetten hozzájárulnak ahhoz, hogy a jogvitákra a magyar hatóságoknak és bíróságoknak legyen kizárólagos joghatóságuk a magyar jog alapján.
