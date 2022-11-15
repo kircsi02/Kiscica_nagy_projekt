@@ -24,6 +24,8 @@ Ráadásképpen azt is fontosnak tartjuk, hogy a lehető legtöbb eszközről é
 
 ##Architekturális terv
 
+A rendszer megfelelő működéséhez szükségünk van egy adatbázis szerverre, jelen esetben Apache-ot használunk erre a célra. A programunkat PHP és Laravel segítségével fejlesztjük, ami össze lesz kötve egy adatbázissal, amibe mentjük a felhasználók teszteredményeit, illetve ezek az eredmények lesznek egy, már előre meghatározott adatbázissal összehasonlítva. Az eredményekhez a felhasználók session adatait társítjuk, így megkülönböztetve az eredményeket, illetve ha valaki regisztrált, annak a nevét és helyét társítjuk hozzá.
+
 ##Adatbázis terv
 
 ##Implementációs terv
