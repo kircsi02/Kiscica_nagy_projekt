@@ -37,7 +37,7 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
     - Weboldalba beépített számbillentyűzet hozzáadása
 - A bemutatás megtörtént és sikeres
 
-##Üzleti folyamatok modellje
+## Üzleti folyamatok modellje
 
 ### Üzleti szereplők:
 
@@ -108,7 +108,7 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
     - Elérhetőségek
     - Kijelentkezés
 
-##Fizikai környezet
+## Fizikai környezet
 
 Az alkalmazás Android és webes platformra készül, de elsősorban böngészőben lehet majd megnyitni, Mozilla, Safari, Google Chrome és Opera böngészőkben rendeltetésszerűen működik. Nincsenek sem megvásárolt komponenseink, sem alkalmazáson belüli mikrotranzakciók.
 
