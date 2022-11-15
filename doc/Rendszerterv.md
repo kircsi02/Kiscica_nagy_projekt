@@ -119,3 +119,5 @@ A webes alkalmazásra egyszerűen, egy ajánlott böngésző letöltésével (Fi
 ##Karbantartási terv
 
 ##Fogalomtár
+
+session = munkamenet
