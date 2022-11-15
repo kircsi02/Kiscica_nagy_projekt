@@ -86,7 +86,29 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
 
 ##Funkcionális terv
 
+### Rendszerszereplők:
 
+- Felhasználó:
+    - Meglátogathatja  a weboldalt
+    - Regisztrálhat hely és név megadásával
+    - Bejelentkezhet a regisztrációkor megadott adatokkal
+    - Kitöltheti a tesztet és megnézheti az arra kapott eredményét
+    - Megtekintheti a karbantartó/tulajdonos adatait
+    - Bezárhatja az oldalt
+
+### Menü-hierarchiák:
+
+- Bejelentkezés nélkül:
+    - Főoldal
+    - Regisztráció
+    - Bejelentkezés
+    - Számrejtvény
+    - Elérhetőségek
+- Bejelentkezve:
+    - Főoldal
+    - Számrejtvény
+    - Elérhetőségek
+    - Kijelentkezés
 
 ##Fizikai környezet
 
