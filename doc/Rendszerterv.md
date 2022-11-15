@@ -65,6 +65,10 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
 
 ##Funkcionális terv
 
+
+
+##Fizikai környezet
+
 Az alkalmazás Android és webes platformra készül, de elsősorban böngészőben lehet majd megnyitni, Mozilla, Safari, Google Chrome és Opera böngészőkben rendeltetésszerűen működik. Nincsenek sem megvásárolt komponenseink, sem alkalmazáson belüli mikrotranzakciók.
 
 Eszközök, amiket a fejlesztéshez használunk:
@@ -77,8 +81,6 @@ Eszközök, amiket a fejlesztéshez használunk:
 - GitHub
 - Trello
 - Apache
-
-##Fizikai környezet
 
 ##Absztrakt domain modell
 
