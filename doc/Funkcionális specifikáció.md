@@ -20,6 +20,7 @@ Napjainkban elég sok gondot szokott okozni, hogy nyomtatványokban, hivatalos d
 
 ##Jelenlegi üzleti folyamatok modellje
 
+A felhasználó fellép a weblapra és legelőször a Főoldalon találja magát, ahol tud regisztálni, ha szeretne, mindezt egy helységadat és egy név megadásával, esetleg meg tudja nézni az elérhetőségeinket és fel tudja venni velünk a kapcsolatot, ha probléma adódna vagy átléphet a Számrejtvények fülre és próbálkozhat a számok felismerésével egyaránt. A számok felismerése 20 db feladványól áll, ami nem megszakíthetó, szóval ha elhagyjuk az oldalt, elölről kell kezdenünk a megoldását. Miután megoldottuk a feladatot, a rendszer kiírja nekünk az eredményt, amit bár el is tárol, a felhasználó nem fog hozzáférni semmilyen formában az előző eredményeihez, de neki nem is olyan fontos, hiszen csak gyakorlásra használja, vagy segít nekünk ezzel a felmérésben, amiért rettentően hálásak vagyunk.
 
 ##Igényelt üzleti folyamatok modellje
 
