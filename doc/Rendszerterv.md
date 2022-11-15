@@ -114,6 +114,8 @@ Ennek a tesztnek elsődleges célja a tesztelő felhasználók visszajelzései a
 
 ##Telepítési terv
 
+A webes alkalmazásra egyszerűen, egy ajánlott böngésző letöltésével (Firefox, Google Chrome, Safari, Microsoft Edge, Opera) és a weboldalunkat felkeresve tudnak a felhasználók majd felcsatlakozni internet hozzáférése mellett, így külön szoftver vagy letöltés nem szükséges hozzá, csak egy ajánlott böngészőt kell telepíteni.
+
 ##Karbantartási terv
 
 ##Fogalomtár
