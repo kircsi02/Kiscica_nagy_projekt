@@ -10,6 +10,33 @@ Ráadásképpen azt is fontosnak tartjuk, hogy a lehető legtöbb eszközről é
 
 ##Projektterv
 
+A felület CSS és PHP nyelveken fog készülni, a hozzá társított adatbázis pedig Laravel-ben lesz megoldva.
+
+A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
+
+- Jedlóczki László: adatbázis, fejlesztés, dokumentáció, tesztelés
+- Sánta András Attila: fejlesztés, dokumentáció, tesztelés
+- Tóth Kíra Zsófia: fejlesztés, dokumentáció, tesztelés
+
+### Mérföldkövek
+
+- Dokumentáció elkészítése
+    - Követelmény specifikáció megírása
+    - Funkcionális specifikáció megírása
+    - Rendszerterv elkészítése
+- Adatbázis
+    - Kép és értékek hozzáadása, összekapcsolása
+    - Felhasználói adatoknak tábla létrehozása
+    - Eredmények tábla létrehozása
+- Weboldal
+    - Regisztráció/Belépés
+    - MNIST implementálása
+    - Sütik hozzáadása
+    - Reszponzív felület léthehozása
+    - Dizájn kialakítása
+    - Weboldalba beépített számbillentyűzet hozzáadása
+- A bemutatás megtörtént és sikeres
+
 ##Üzleti folyamatok modellje
 
 ##Követelmények
