@@ -40,6 +40,14 @@ Felelősségi szabályok A Tulajdonos fenntartja magának a jogot arra, hogy ame
 
 ##Követelménylista
 
+- [K01] - Könnyen üzemeltethető és karbantartható rendszer
+- [K02] - Reszponzív dizájn
+- [K03] - Regisztáció (nem kötelező)
+- [K04] - Felhasználó megjegyzése vagy helyileg, vagy regisztrációval
+- [K05] - Kézírásos képek megjelenítése (20 db)
+- [K06] - Tipp megadása és annak ellenőrzése
+- [K07] - 20 db feladat adása után végeremény mutatása
+
 ##Riportok
 
 - Kivitelező: Mi az oldal ötlete? Milyen koncepciójú és főbb funkciókkal rendelkező oldalt szeretne?
