@@ -28,6 +28,8 @@ A felhasználók regisztrálhatnak egy név és egy helységnév megadásával, 
 
 ## Használati esetek
 
+![Funkcionális specifikáció - Használati esetek ábra drawio](https://user-images.githubusercontent.com/113984906/201915200-df600112-a29c-4d88-b8e5-37ef0906d9ab.png)
+
 ## Képernyőtervek
 
 ![Funkspec - Képernyőterv ábra](https://user-images.githubusercontent.com/113984906/201908923-30e364bb-d78c-4667-9914-b345a2761147.jpg)
