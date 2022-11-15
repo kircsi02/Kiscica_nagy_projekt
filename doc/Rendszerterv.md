@@ -39,6 +39,27 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
 
 ##Üzleti folyamatok modellje
 
+### Üzleti szereplők:
+
+- regisztrált felhasználó
+- regisztrálatlan felhasználó
+
+### Üzleti folyamatok:
+
+- A felhasználó megkapja a weboldal elérhetőségét, majd felkeresi a felületet.
+- Az oldalra érve eldöntheti, hogy akar-e regisztrálni vagy nem, de mindenképpen eléri a tesztet, illetve bejelentkezhet a fiókjába.
+    - Ha regisztrál: Belépés után elmentett helyadattal és névvel átléphet a Számrejtvény fülre, ahol kitöltheti  a feladványokat, vagy felkeresheti az Elérhetőségek menüpontot, ahol megtalálja a karbantartó és/vagy a tulajdonos elérhetségeit, majd ennek tudatában felkeresheti őket probléma esetén.
+    - Ha nem regisztrál: Továbbléphet az előbb említett menüpontokra ugyanúgy, mint a regisztrált felhasználó, azzal a különbséggel, hogy az ő adatai nem lesznek elmentve, csak sütik segítségével lesz az eredménye eltárolva az adatbázisban.
+    - Ha bejelentkezik: Ugyanazt megteheti, mint a regisztrál felhasználó bejelentkezés után, ugyanazokkal a következményekkel.
+- A kitöltött teszt után megkapja az eredményt a képernyőre kiírva, majd próbálkozhat újra, vagy elhagyjatja az oldalt, illetve regisztrálhat, beléphet vagy az Elérhetőségek fülre kattintva az adatok tudatában felkeresheti a karbantartót/tulajdonost.
+
+(ÁBRA)
+
+### Erőforrások:
+
+- Internetkapcsolat
+- Publikus szerverhez való hozzáférés
+
 ##Követelmények
 
 ##Követelmények
