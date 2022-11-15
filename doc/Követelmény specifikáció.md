@@ -8,6 +8,8 @@ Egy olyan weblapot szeretnénk létrehozni, ami arra szolgál, hogy embereket k�
 
 Napjainkban elég sok gondot szokott okozni, hogy nyomtatványokban, hivatalos dokumentumokban a nyomtatott részek mellett vannak kézzel írott sorok is, mint például a dátum, aláírás stb. Annak érdekében, hogy ezeknek a feldolgozását meggyorsítsuk, létre akarunk hozni egy olyan weboldalt, ami a kézírást felismerő AI-ok működését segíti azzal, hogy egy statisztikát nyújt a véletlenszerű kézírásos képek felismerésében. Ez által kapunk egy képet, hogy az adott területen az emberek mit hogy írnak, mit hogy olvasnak, ami nagy segítséget nyújthat a későbbi kézírásfelismerések alkalmával.
 
+Továbbá ez a weblap abban is nagy segítségünkre lehet, hogy azok az emberek, akik olyan szakmában dolgoznak, ahol nap mint nap kézírást kell felismerniük, gyakorolják ezt különböző írások beazonosításával, ezáltal növelve a hatékonyságot.
+
 ##Vágyálom rendszer
 
 Egy olyan weboldalt szeretnénk megalkotni, ami könnyen kezelhető, reszponzív, átlátható és egyszerű, de nagyszerű dizájnnal rendelkezik, ezáltal vonzva a felhasználókat. Mindemellett nem csak a külsőre fektetnénk nagy hangsúlyt, hanem a működésre is:

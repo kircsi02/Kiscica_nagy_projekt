@@ -8,8 +8,6 @@ Egy olyan weblapot szeretnénk létrehozni, ami arra szolgál, hogy embereket k�
 
 
 
-Továbbá ez a weblap abban is nagy segítségünkre lehet, hogy azok az emberek, akik olyan szakmában dolgoznak, ahol nap mint nap kézírást kell felismerniük, gyakorolják ezt különböző írások beazonosításával, ezáltal növelve a hatékonyságot.
-
 ##Követelménylista
 
 - [K01] - Könnyen üzemeltethető és karbantartható rendszer, ami egyszerő felülettel és dizájnnal rendelkezik
