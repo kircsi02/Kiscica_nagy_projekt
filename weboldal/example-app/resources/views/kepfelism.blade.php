@@ -52,6 +52,13 @@
                 
             }
 
+            .btn{
+                width: 30% !important;
+                height: 50px !important;
+                margin: 5px !important;
+                border: 1px solid black !important;
+            }
+
 
             .kitolt{
 
@@ -78,22 +85,22 @@
 
                     <div class="kitolt sm:items-center">
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light">1</button>
-                        <button type="button" class="btn btn-light">2</button>
-                        <button type="button" class="btn btn-light">3</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">1</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">2</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">3</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light">4</button>
-                        <button type="button" class="btn btn-light">5</button>
-                        <button type="button" class="btn btn-light">6</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">4</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">5</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">6</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light">7</button>
-                        <button type="button" class="btn btn-light">8</button>
-                        <button type="button" class="btn btn-light">9</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">7</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">8</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">9</button>
                         </div>
                         <div class="button sm:items-center col-1">
-                        <button type="button" class="btn btn-light">0</button>
+                        <button type="button" class="btn btn-light sm:rounded-lg">0</button>
                         </div>
                         </div>
                     </div>

@@ -3,7 +3,6 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <title>Kiscica project</title>
 
         <!-- Fonts -->
@@ -87,7 +86,9 @@
                 padding-bottom:2%;
                 border: solid 1px black;
             }
-
+            .nomargin{
+                margin: 0 !important;
+            }
 
         </style>
     </head>
@@ -104,8 +105,8 @@
                         <div class="regmezo shadow sm:rounded-lg sm:items-center">
                         <h3>Nem kötelező megadni!</h3>
                         <form name="register" method="POST" action="#">
-                        <p>Teljes név:</p> <input type="text" name="name"><br>
-                        <p>Város:</p> <input type="password" name="password"><br>
+                        <p class="nomargin">Teljes név:</p> <input type="text" name="name"><br>
+                        <p class="nomargin">Város:</p> <input type="password" name="password"><br>
                         <input type="submit" value="Register">
                         <h3>Laci ez rád vár hogy működjön</h3>
                         <h5>Adatbázis plíz</h5>
