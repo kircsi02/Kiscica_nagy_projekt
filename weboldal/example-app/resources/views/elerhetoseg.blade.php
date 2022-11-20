@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Kiscica project</title>
-        <link rel="stylesheet" href="app.css">
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -29,13 +29,7 @@
                 font-family: 'Times-new-roman', sans-serif;
                 background-color: rgb(85, 42, 42);
             }
-            .info{
 
-                background-color: white;
-                border: solid 1px black;
-                font-size:20pt;
-
-            }
 
             .wrapper{
                 
@@ -52,24 +46,26 @@
                 
             }
 
-            .regmezo{
 
-                background-color: lightgrey;
-                box-sizing: border-box;
-                border: solid 1px black;
-                width: 50%;
-                justify-content: center;
-                font-size: 16pt;
-                inline-size: auto;
-                
-
-            }
 
             .kitolt{
 
-                
+                background-color: white;
+                border: solid 1px black;
                 justify-content: left;
-                padding-top: 30px;
+                margin: 2% !important;
+                
+            }
+
+            .elerhetoseg{
+
+                background-color: white;
+                border: solid 1px black;
+                justify-content: left;
+                text-align: left !important;
+                margin: 2% !important;
+                padding: 2% !important;
+
             }
 
             .folytat{
@@ -81,67 +77,39 @@
 
             .folytatmezo{
                 background-color: white;
-                margin-top: 2%;
+                margin: 2% !important;
                 padding-top:2%;
                 padding-bottom:2%;
                 border: solid 1px black;
             }
-            .nomargin{
-                margin: 0 !important;
-            }
 
-            .elerhetoseg{
-                position:absolute;
-                bottom:0;
-                right:0;
-                text-align: center;
-                background-color: white;
-                border: solid 1px black;
-                height: 50px;
-                width: 10%;
-                margin: 5px !important;
-                padding-bottom: 60px !important;
-
-            }
 
         </style>
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen sm:items-center ">
-            
             <div class="wrapper sm:rounded-lg">
-                <div class="content sm:px-6 lg:px-8">
-                    <div class="info sm:rounded-lg">
-                    Ennek az oldalnak a célja hogy össze hasonlítsa az emberek megitélését írt számokkal kapcsolatban, a mesterséges inteligenciával szemben.
+                    <div class = "elerhetoseg sm:rounded-lg">
+                        <h3>Elérhetőségeink:</h3>
+                        <h4>Email:</h4>
+                        <h4>Telefonszám:</h4>
+                        <h4>Intézmény hely:</h4>
                     </div>
-
-                    <div class="kitolt sm:items-center">
-                        <div class="regmezo shadow sm:rounded-lg sm:items-center">
-                        <h3>Nem kötelező megadni!</h3>
-                        <form name="register" method="POST" action="#">
-                        <p class="nomargin">Teljes név:</p> <input type="text" name="name"><br>
-                        <p class="nomargin">Város:</p> <input type="password" name="password"><br>
-                        <input type="submit" value="Register">
-                        <h3>Laci ez rád vár hogy működjön</h3>
-                        <h5>Adatbázis plíz</h5>
-                        </div>
+                    <div class = "kitolt sm:rounded-lg">
+                        <h4>Ha ki akarod tölteni a képfelismerés tesztet, akkor:</h4>
                     </div>
-
                     <div class="folytat sm:items-center">
                         <div class="folytatmezo shadow sm:rounded-lg sm:items-center">
-                        <a href="képfelismerés"><h4>Folytatáshoz katt ide!</h4></a>
+                        <a href="képfelismerés"><h2>A folytatáshoz katt ide!</h2></a>
                         </div>
+                    </div>
+                    <div class = "kitolt sm:rounded-lg">
+                        <h5>Vagy ha vissza mennél a fő oldalra, akkor:</h5>
+                        <a href="/"><h4>Vissza a főoldalra!</h4></a>
                     </div>
 
                 </div>
             </div>
-        <div class="fixed-bottom">
-            <div class="elerhetoseg sm:items-right sm:rounded-lg">
-
-            <a href="elérhetőségek"><h4>Elérhetőségek!</h4></a>
-
-            </div>
-        </div>
         </div>
     </body>
 </html>
