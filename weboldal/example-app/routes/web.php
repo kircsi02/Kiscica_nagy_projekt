@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImgSolutionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,3 +29,5 @@ Route::get('/eredmény', function () {
 Route::get('/elerhetosegek', function () {
     return view('elerheto');
 });
+
+Route::get('imgsolution', [ImgSolutionController::class,'ImageNumber']);
