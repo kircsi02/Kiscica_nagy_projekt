@@ -9,8 +9,5 @@ use App\Models\ImgSolution;
 
 class ImgSolutionController extends Controller
 {
-    function ImageNumber($n){
-        //return ImgSolution::all();
-        return DB::select("SELECT solution FROM imgsolution WHERE imgnumber = $n");
-    }
+    
 }

@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
@@ -34,9 +37,13 @@
                 <div class="content sm:px-6 lg:px-8">
                     <div class="info sm:rounded-lg">
                     <?php
-                    
-                    echo '<img class="rndimg" src="images/img_',strval(rand(1,350)),'.jpg" alt="">';
+                    use App\Http\Controllers\ImgSolutionController;
+                    use Illuminate\Support\Facades\DB;
+                    $rnd = rand(1,350);
+                    $sol = DB::table('imgsolution')->where('imgnumber',$rnd)->value('solution');
+                    echo '<img class="rndimg" src="images/img_',strval($rnd),'.jpg" alt="">';
                     ?>
+                    
                     </div>
 
                     <div class="kitolt sm:items-center">

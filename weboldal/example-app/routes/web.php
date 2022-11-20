@@ -30,4 +30,3 @@ Route::get('/elerhetosegek', function () {
     return view('elerheto');
 });
 
-Route::get('imgsolution', [ImgSolutionController::class,'ImageNumber']);
