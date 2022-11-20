@@ -64,6 +64,7 @@
                 justify-content: left;
                 text-align: left !important;
                 margin: 2% !important;
+                padding: 2% !important;
 
             }
 

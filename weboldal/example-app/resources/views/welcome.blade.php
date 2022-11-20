@@ -90,6 +90,20 @@
                 margin: 0 !important;
             }
 
+            .elerhetoseg{
+                position:absolute;
+                bottom:0;
+                right:0;
+                text-align: center;
+                background-color: white;
+                border: solid 1px black;
+                height: 50px;
+                width: 10%;
+                margin: 5px !important;
+                padding-bottom: 60px !important;
+
+            }
+
         </style>
     </head>
     <body class="antialiased">
@@ -110,7 +124,6 @@
                         <input type="submit" value="Register">
                         <h3>Laci ez rád vár hogy működjön</h3>
                         <h5>Adatbázis plíz</h5>
-                        és igen mellesleg ezeket is összébb kéne húzni, és a regisztrációt nagyobbra venni C:
                         </div>
                     </div>
 
@@ -122,6 +135,13 @@
 
                 </div>
             </div>
+        <div class="fixed-bottom">
+            <div class="elerhetoseg sm:items-right sm:rounded-lg">
+
+            <a href="elérhetőségek"><h4>Elérhetőségek!</h4></a>
+
+            </div>
+        </div>
         </div>
     </body>
 </html>
