@@ -44,8 +44,8 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
 | Funkcionális specifikáció |  | 12 | 12 | 0 |
 | Rendszerterv |  | 16 | 12 | 4 |
 | Adattárolás, Adatbázis | Adatmodell megtervezése, Adatbázis megvalósítása | 6 | 4 | 2 |
-| Login felület | Logó készítése | 8 | 4 | 4 |
-| Crud műveletek |  | 8 | 4 | 4 |
+| Felület elkészítése | Logó készítése | 8 | 4 | 4 |
+| Implementáció |  | 8 | 4 | 4 |
 
 ## Üzleti folyamatok modellje
 
