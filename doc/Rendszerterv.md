@@ -46,6 +46,8 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
 
 ### Üzleti folyamatok:
 
+![Funkcionális specifikáció - Használati esetek ábra drawio](https://user-images.githubusercontent.com/113984906/201915200-df600112-a29c-4d88-b8e5-37ef0906d9ab.png)
+
 - A felhasználó megkapja a weboldal elérhetőségét, majd felkeresi a felületet.
 - Az oldalra érve eldöntheti, hogy akar-e regisztrálni vagy nem, de mindenképpen eléri a tesztet, illetve bejelentkezhet a fiókjába.
     - Ha regisztrál: Belépés után elmentett helyadattal és névvel átléphet a Számrejtvény fülre, ahol kitöltheti  a feladványokat, vagy felkeresheti az Elérhetőségek menüpontot, ahol megtalálja a karbantartó és/vagy a tulajdonos elérhetségeit, majd ennek tudatában felkeresheti őket probléma esetén.
@@ -53,7 +55,7 @@ A weboldalt három fejlesztő együttes munkájával hozzuk működésbe:
     - Ha bejelentkezik: Ugyanazt megteheti, mint a regisztrál felhasználó bejelentkezés után, ugyanazokkal a következményekkel.
 - A kitöltött teszt után megkapja az eredményt a képernyőre kiírva, majd próbálkozhat újra, vagy elhagyjatja az oldalt, illetve regisztrálhat, beléphet vagy az Elérhetőségek fülre kattintva az adatok tudatában felkeresheti a karbantartót/tulajdonost.
 
-(ÁBRA)
+![Kövspec - Igényelt üzleti folyamatok modellje ábra drawio](https://user-images.githubusercontent.com/113984906/203150238-28af5f4b-e76f-40c2-b090-96ede286a8bc.png)
 
 ### Erőforrások:
 
