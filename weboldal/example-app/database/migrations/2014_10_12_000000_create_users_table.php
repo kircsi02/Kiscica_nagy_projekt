@@ -17,6 +17,8 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('varos');
+            $table->integer('current');
+            $table->integer('goodguess');
             $table->timestamps();
         });
     }
