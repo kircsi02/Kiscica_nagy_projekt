@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImgSolutionController;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +20,7 @@ Route::get('/', function () {
 });
 
 Route::get('/képfelismerés', function () {
+
     return view('kepfelism');
 });
 
@@ -29,4 +31,7 @@ Route::get('/eredmény', function () {
 Route::get('/elerhetosegek', function () {
     return view('elerheto');
 });
-
+Route::resource('users',UserController::class);
+Route::post('/',function(){
+    create($req);
+});

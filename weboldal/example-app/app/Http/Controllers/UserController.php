@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -13,18 +14,31 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
+    { 
+        $users = User::latest()->paginate(5);
+    
+        return view('user.index',compact('users'))
+            ->with('i', (request()->input('page', 1) - 1) * 5);
     }
-
+    public function makeSession(Request $req)
+    {
+        $data = $req->input();
+        $req->session()->put('id',$data['id']);
+    }
     /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        // id,name,varos,current,goodguess
+        User::create([
+            'name' => $request->name,
+            'varos' => $request->varos,
+            'current' => $request->current,
+            'goodguess' => $request->goodguess
+        ]);
     }
 
     /**

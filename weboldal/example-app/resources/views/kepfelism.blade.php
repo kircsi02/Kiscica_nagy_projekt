@@ -35,6 +35,9 @@ session_start();
             
             <div class="wrapper sm:rounded-lg">
                 <div class="content sm:px-6 lg:px-8">
+                <div class="info sm:rounded-lg" style="margin-bottom: 5px;">
+                    <p>1/15</p>
+                </div>
                     <div class="info sm:rounded-lg">
                     <?php
                     use App\Http\Controllers\ImgSolutionController;
@@ -48,22 +51,22 @@ session_start();
 
                     <div class="kitolt sm:items-center">
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light sm:rounded-lg">1</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">2</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">3</button>
+                        <button onclick="asd(1)" type="button" class="btn btn-light sm:rounded-lg">1</button>
+                        <button onclick="asd(2)" type="button" class="btn btn-light sm:rounded-lg">2</button>
+                        <button onclick="asd(3)" type="button" class="btn btn-light sm:rounded-lg">3</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light sm:rounded-lg">4</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">5</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">6</button>
+                        <button onclick="asd(4)" type="button" class="btn btn-light sm:rounded-lg">4</button>
+                        <button onclick="asd(5)" type="button" class="btn btn-light sm:rounded-lg">5</button>
+                        <button onclick="asd(6)" type="button" class="btn btn-light sm:rounded-lg">6</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button type="button" class="btn btn-light sm:rounded-lg">7</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">8</button>
-                        <button type="button" class="btn btn-light sm:rounded-lg">9</button>
+                        <button onclick="asd(7)" type="button" class="btn btn-light sm:rounded-lg">7</button>
+                        <button onclick="asd(7)" type="button" class="btn btn-light sm:rounded-lg">8</button>
+                        <button onclick="asd(9)" type="button" class="btn btn-light sm:rounded-lg">9</button>
                         </div>
                         <div class="button sm:items-center col-1">
-                        <button type="button" class="btn btn-light sm:rounded-lg">0</button>
+                        <button onclick="asd(0)" type="button" class="btn btn-light sm:rounded-lg">0</button>
                         </div>
                         </div>
                     </div>
@@ -75,4 +78,11 @@ session_start();
             </div>
         </div>
     </body>
+    <script>
+        function asd(n){
+            if ($sol == n) {
+                
+            }
+        }
+    </script>
 </html>

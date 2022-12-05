@@ -124,6 +124,7 @@
                         <input type="submit" value="Register">
                         <h3>Laci ez rád vár hogy működjön</h3>
                         <h5>Adatbázis plíz</h5>
+                        </form>
                         </div>
                     </div>
 
