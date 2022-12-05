@@ -120,7 +120,7 @@
                         <h3>Nem kötelező megadni!</h3>
                         <form name="register" method="POST" action="#">
                         <p class="nomargin">Teljes név:</p> <input type="text" name="name"><br>
-                        <p class="nomargin">Város:</p> <input type="password" name="password"><br>
+                        <p class="nomargin">Város:</p> <input type="text" name="city"><br>
                         <input type="submit" value="Register">
                         </form>
                         </div>
@@ -137,7 +137,7 @@
         <div class="fixed-bottom">
             <div class="elerhetoseg sm:items-right sm:rounded-lg">
 
-            <a href="elérhetőségek"><h4>Elérhetőségek!</h4></a>
+            <a href="elerhetoseg"><h4>Elérhetőségek!</h4></a>
 
             </div>
         </div>

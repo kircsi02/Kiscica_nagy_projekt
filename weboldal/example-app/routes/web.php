@@ -28,8 +28,8 @@ Route::get('/eredmény', function () {
     return view('eredmeny');
 });
 
-Route::get('/elerhetosegek', function () {
-    return view('elerheto');
+Route::get('/elérhetőségek', function () {
+    return view('elerhetoseg');
 });
 Route::resource('users',UserController::class);
 Route::post('/',function(){

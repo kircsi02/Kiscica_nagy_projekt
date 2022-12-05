@@ -51,22 +51,22 @@ session_start();
 
                     <div class="kitolt sm:items-center">
                         <div class="button sm:items-center col-4">
-                        <button onclick="asd(1)" type="button" class="btn btn-light sm:rounded-lg">1</button>
-                        <button onclick="asd(2)" type="button" class="btn btn-light sm:rounded-lg">2</button>
-                        <button onclick="asd(3)" type="button" class="btn btn-light sm:rounded-lg">3</button>
+                        <button onclick="asd(1)" type="submit" value="1" class="btn btn-light sm:rounded-lg">1</button>
+                        <button onclick="asd(2)" type="submit" value="2" class="btn btn-light sm:rounded-lg">2</button>
+                        <button onclick="asd(3)" type="submit" value="3" class="btn btn-light sm:rounded-lg">3</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button onclick="asd(4)" type="button" class="btn btn-light sm:rounded-lg">4</button>
-                        <button onclick="asd(5)" type="button" class="btn btn-light sm:rounded-lg">5</button>
-                        <button onclick="asd(6)" type="button" class="btn btn-light sm:rounded-lg">6</button>
+                        <button onclick="asd(4)" type="submit" value="4" class="btn btn-light sm:rounded-lg">4</button>
+                        <button onclick="asd(5)" type="submit" value="5" class="btn btn-light sm:rounded-lg">5</button>
+                        <button onclick="asd(6)" type="submit" value="6" class="btn btn-light sm:rounded-lg">6</button>
                         </div>
                         <div class="button sm:items-center col-4">
-                        <button onclick="asd(7)" type="button" class="btn btn-light sm:rounded-lg">7</button>
-                        <button onclick="asd(7)" type="button" class="btn btn-light sm:rounded-lg">8</button>
-                        <button onclick="asd(9)" type="button" class="btn btn-light sm:rounded-lg">9</button>
+                        <button onclick="asd(7)" type="submit" value="7" class="btn btn-light sm:rounded-lg">7</button>
+                        <button onclick="asd(7)" type="submit" value="8" class="btn btn-light sm:rounded-lg">8</button>
+                        <button onclick="asd(9)" type="submit" value="9" class="btn btn-light sm:rounded-lg">9</button>
                         </div>
                         <div class="button sm:items-center col-1">
-                        <button onclick="asd(0)" type="button" class="btn btn-light sm:rounded-lg">0</button>
+                        <button onclick="asd(0)" type="submit" value="0" class="btn btn-light sm:rounded-lg">0</button>
                         </div>
                         </div>
                     </div>
