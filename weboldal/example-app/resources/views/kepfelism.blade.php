@@ -71,7 +71,6 @@ session_start();
                         </div>
                     </div>
                     
-                    <h3>Igen a gombok is rád várnak</h3>
                     
 
                 </div>

@@ -122,8 +122,6 @@
                         <p class="nomargin">Teljes név:</p> <input type="text" name="name"><br>
                         <p class="nomargin">Város:</p> <input type="password" name="password"><br>
                         <input type="submit" value="Register">
-                        <h3>Laci ez rád vár hogy működjön</h3>
-                        <h5>Adatbázis plíz</h5>
                         </form>
                         </div>
                     </div>
