@@ -91,9 +91,9 @@
             <div class="wrapper sm:rounded-lg">
                     <div class = "elerhetoseg sm:rounded-lg">
                         <h3>Elérhetőségeink:</h3>
-                        <h4>Email:</h4>
-                        <h4>Telefonszám:</h4>
-                        <h4>Intézmény hely:</h4>
+                        <h4>Email:rektori@uni-eszterhazy.hu , kabinet@uni-eszterhazy.hu</h4>
+                        <h4>Telefonszám:+36 36/520-400</h4>
+                        <h4>Intézmény hely: 3300 Eger, Eszterházy tér 1.</h4>
                     </div>
                     <div class = "kitolt sm:rounded-lg">
                         <h4>Ha ki akarod tölteni a képfelismerés tesztet, akkor:</h4>
