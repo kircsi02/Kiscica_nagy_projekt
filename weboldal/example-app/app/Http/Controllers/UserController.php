@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
@@ -14,9 +15,9 @@ class UserController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    { 
+    {
         $users = User::latest()->paginate(5);
-    
+
         return view('user.index',compact('users'))
             ->with('i', (request()->input('page', 1) - 1) * 5);
     }
@@ -39,6 +40,7 @@ class UserController extends Controller
             'current' => $request->current,
             'goodguess' => $request->goodguess
         ]);
+        return view('kepfelism');
     }
 
     /**
@@ -81,9 +83,23 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
-        //
+        $good = DB::table('users')->where('id',$request->id)->value('goodguess');
+        $current = DB::table('users')->where('id',$request->id)->value('current');
+        $current++;
+        DB::table('users')->where('id',$request->id)->update(array('current'=>$current));
+        $sol = $request->sol;
+        if ($sol == $request->megold) {
+            $good++;
+            DB::table('users')->where('id',$request->id)->update(array('goodguess'=>$good));
+        }
+        if ($current >= 16) {
+
+            return view('eredmeny');
+        }else{
+            return  view('kepfelism');
+        }
     }
 
     /**

@@ -32,6 +32,5 @@ Route::get('/elérhetőségek', function () {
     return view('elerhetoseg');
 });
 Route::resource('users',UserController::class);
-Route::post('/',function(){
-    create($req);
-});
+Route::post('/3',[UserController::class,'create']);
+Route::post('/képfelismerés',[UserController::class,'update']);

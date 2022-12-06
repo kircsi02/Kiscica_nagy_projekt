@@ -38,7 +38,7 @@
             }
 
             .wrapper{
-                
+
                 background-color: #8b7865;
                 width: 40%;
                 box-sizing: border-box;
@@ -49,7 +49,7 @@
                 padding-bottom: 5%;
                 display: inline-block;
                 text-align: center;
-                
+
             }
 
             .regmezo{
@@ -61,13 +61,13 @@
                 justify-content: center;
                 font-size: 16pt;
                 inline-size: auto;
-                
+
 
             }
 
             .kitolt{
 
-                
+
                 justify-content: left;
                 padding-top: 30px;
             }
@@ -108,7 +108,7 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen sm:items-center ">
-            
+
             <div class="wrapper sm:rounded-lg">
                 <div class="content sm:px-6 lg:px-8">
                     <div class="info sm:rounded-lg">
@@ -118,9 +118,12 @@
                     <div class="kitolt sm:items-center">
                         <div class="regmezo shadow sm:rounded-lg sm:items-center">
                         <h3>Nem kötelező megadni!</h3>
-                        <form name="register" method="POST" action="#">
+                        <form name="register" method="POST" action="/3">
+                        @csrf
                         <p class="nomargin">Teljes név:</p> <input type="text" name="name"><br>
-                        <p class="nomargin">Város:</p> <input type="text" name="city"><br>
+                        <p class="nomargin">Város:</p> <input type="text" name="varos"><br>
+                        <input type="hidden" name="current" value="1">
+                        <input type="hidden" name="goodguess" value="0">
                         <input type="submit" value="Register">
                         </form>
                         </div>
@@ -137,7 +140,7 @@
         <div class="fixed-bottom">
             <div class="elerhetoseg sm:items-right sm:rounded-lg">
 
-            <a href="elerhetoseg"><h4>Elérhetőségek!</h4></a>
+            <a href="elérhetőségek"><h4>Elérhetőségek!</h4></a>
 
             </div>
         </div>

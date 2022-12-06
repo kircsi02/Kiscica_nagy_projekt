@@ -39,7 +39,7 @@
             }
 
             .wrapper{
-                
+
                 background-color: #8b7865;
                 width: 40%;
                 box-sizing: border-box;
@@ -50,7 +50,7 @@
                 padding-bottom: 5%;
                 display: inline-block;
                 text-align: center;
-                
+
             }
 
             .regmezo{
@@ -62,7 +62,7 @@
                 justify-content: center;
                 font-size: 16pt;
                 inline-size: auto;
-                
+
 
             }
 
@@ -82,15 +82,17 @@
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen sm:items-center ">
-            
+
             <div class="wrapper sm:rounded-lg">
                 <div class="content sm:px-6 lg:px-8">
-                    
 
+<?php
+$x = DB::table('users')->count();
+$good = DB::table('users')->where('id',$x)->value('goodguess');
+?>
                     <div class="kitolt sm:items-center sm:rounded-lg">
                         <h2>Az eredményed:</h2>
-                        <h4>Tudod mi jön ide xDDD</h4>
-                        Ami még kell (nem feltétlen ide): Sessionok, adatbázis, és kapcsolataik.
+                        <p> {{$good}}/15 </p>
                     </div>
 
                 </div>
